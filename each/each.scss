@@ -1,0 +1,7 @@
+@each $animal in kedi, kopek, kus {
+    .#{$animal}-icon {
+        &:before {
+            content: "#{$animal}";
+        }
+    }
+}

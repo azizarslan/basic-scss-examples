@@ -1,0 +1,14 @@
+$type: green;
+
+div {
+    width: 100px;
+    height: 100px;
+
+    @if $type == blue {
+        background: blue;
+    } @else if $type == yellow {
+        background: yellow;
+    } @else {
+        background: green;
+    }
+}

@@ -1,0 +1,7 @@
+@for $i from 1 through 12 {
+    $random: $i * $i * $i % 55;
+
+    div:nth-child(#{$i}) {
+        font-size: #{$random}px;
+    }
+}

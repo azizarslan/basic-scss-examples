@@ -1,0 +1,9 @@
+@function black($opacity) {
+    @return rgba(0, 0, 0, $opacity);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: black(0.5);
+}
